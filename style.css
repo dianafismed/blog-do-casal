@@ -1,0 +1,49 @@
+/*      Fonts     */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+/*      General      */
+:root{
+  --back: #FFF8EA;
+  --title-1: #594545;
+  --items: #A77979;
+}
+
+body{background-color: var(--back);}
+
+a{text-decoration: none;}
+
+p{text-align: justify;}
+
+main{margin-top: 100px;}
+
+/*      Nav     */
+nav, #logo{
+  background-color: var(--back);
+  font-family:'Cookie', cursive;
+  font-size: 2rem;
+}
+
+nav img{width: 10%;}
+
+/*      Principal     */
+#principal{
+  background-image: url('images/back.jpg');
+  background-repeat: no-repeat;
+  
+}
+
+footer a{
+  color: var(--items);
+  margin: 0 1rem;
+  font-family: 'Cookie', cursive;
+  font-size: 2rem;
+}
+
+.top{color: var(--title-1);}
+
+
+/*      Medias      */
+@media (max-width: 768px) {
+  nav{font-size: 1rem;}
+  footer a{font-size: 1.5rem;}
+}
